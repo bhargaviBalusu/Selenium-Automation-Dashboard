@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<title>Welcome to APIFUZZ</title>
+<head>
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+<style>
+
+ h3
+ {
+  font-family: Calibri;
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color:#2d2828;
+  text-align: center;
+  text-decoration: underline
+}
+table
+{
+  font-family: Calibri;
+  color:white;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align:;
+  background-color: #2d2828;
+  border-collapse: collapse;
+  border: 2px solid navy
+}
+</style>
+
+<div class="a-header">
+</div>
+
+<h3>Welcome to Amazon Fuzzer</h3>
+<table align="center" cellpadding = "10">
+<form action="/index" method="POST">
+  <tr>
+<td>SEARCHFORPRODUCT CASE</td>
+<td><button class="btn btn-submit" formaction="/searchcase">Run</button></td>
+</tr>
+  <tr>
+  <td>ORDER SUMMARY</td>
+  <td><button class="btn btn-submit"formaction="/ordersummary">Run</button></td>
+</tr>
+  <tr>
+  <td>TRACK YOUR PACKAGE</td>
+  <td><button class="btn btn-submit" formaction="/trackpackage">Run</button></td>
+</tr>
+  <tr>
+  <td>KNOW YOUR BROWSING HISTORY</td>
+  <td><button class="btn btn-submit" formaction="/knowhistory">Run</button></td>
+</tr>
+  <tr>
+  <td>TODAYS DEALS</td>
+  <td><button class="btn btn-submit" formaction="/todaysdeal">Run</button></td>
+</tr>
+  <tr>
+  <td>CHECK PRIME MEMBER</td>
+  <td><button class="btn btn-submit" formaction="/checkprime">Run</button></td>
+  </tr>
+  <tr>
+<td colspan="2" align="center">
+  <button class="btn btn-submit">RUN TEST SUITE</button>
+  <button class="btn btn-submit">VIEW REPORT</button>
+</td>
+</tr>
+
+</form>
+</table>
+</body>
+</html>
